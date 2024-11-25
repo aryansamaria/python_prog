@@ -1,0 +1,23 @@
+1. ask from the user the number to check n=6
+2. declare sum=0 if the sum of divisor comes out to be 0
+3. for loop starts with the range(1,num)
+
+iteration:1: num=1
+             if n%num==0 its to check wether num is the divisior of n or not "TRUE"
+             sum+=num=sum=0+1=1
+
+iteration:2: num=2
+             if n%num==0 its to check wether num is the divisior of n or not "TRUE"
+             sum+=num=sum=1+2=3
+
+iteration:3: num=3
+             if n%num==0 its to check wether num is the divisior of n or not "TRUE"
+             sum+=num=sum=3+3=6
+
+iteration:4: num=4
+             if n%num==0 its to check wether num is the divisior of n or not "FALSE"
+             
+iteration:5: num=5
+             if n%num==0 its to check wether num is the divisior of n or not "FALSE"
+             
+                               

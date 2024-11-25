@@ -1,0 +1,12 @@
+1. Take a input for n (3)
+2. declare fact=1 if want to check for 0
+3. for loop with range(1,n+1) starts
+iteration:1: num=1
+             fact*=num fact=1*1=1
+
+iteration:2: num=2
+             fact*=num fact=1*2=2
+
+iteration:3: num=3
+             fact*=num fact=2*3=6
+4. print the fact=6                          

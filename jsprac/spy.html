@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        console.log(main(1124))
+        function main(n)
+        {
+            let dum=n;
+            let sum=0;
+            let pro=1;
+            while (dum>0)
+            {
+                let rem=dum%10
+                sum+=rem
+                pro*=rem
+                dum=Math.trunc(dum/10)
+            }
+           if (sum==pro)
+           {
+              return "spy number"
+           } 
+           else
+           {
+            return "not a spy number"
+           }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

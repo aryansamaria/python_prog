@@ -1,0 +1,16 @@
+1. take string as input from user"wow"
+2. declare a empty dictionary
+3. START the for loop with the cdt string with variable i
+
+iteration:1: i ="w"
+             if not in d{}--"TRUE" d[i]=1 "it insert the key value pair in dict. {"w":1}
+
+iteration:1: i ="o"
+             if not in d{}--"TRUE" d[i]=1 "it insert the key value pair in dict. {"w":1,"o":1}
+
+iteration:1: i ="w"
+             if not in d{}--"FALSE" then it goes to else statement there d[i]=d[i]+1 which means d["w"]=1+1. 
+             {"w":2,"o":1} 
+
+
+4. print the d                                   

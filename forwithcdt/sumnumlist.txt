@@ -1,0 +1,26 @@
+1. declare a list with  various types of data l=[33,11,22,'hai','22',[23,34]]
+2. declre sum=0 if the sum comes out to be 0
+3. start the for loop with cdt "l"
+
+iteration:1: i=33
+             check: if type of i == integer type--"TRUE" 
+             sum+=i--sum=0+33=33
+
+iteration:2: i=11
+             check: if type of i == integer type--"TRUE" 
+             sum+=i--sum=33+11=44
+
+iteration:3: i=22
+             check: if type of i == integer type--"TRUE" 
+             sum+=i--sum=44+22=66
+
+iteration:4: i='hai'
+             check: if type of i == integer type--"FALSE" 
+             
+
+iteration:5: i='22'
+             check: if type of i == integer type--"FALSE" 
+
+iteration:6: i=[23,34]
+             check: if type of i == integer type--"FALSE"              
+             

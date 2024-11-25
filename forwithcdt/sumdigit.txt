@@ -1,0 +1,17 @@
+1. take input from the user(ar12)
+2. initializing sum 0 if the sum is 0 
+
+for loop--
+ iteration:1:  i='a'--if condition (using i.isdigit() we can check this i is digit or not) "FALSE" 
+ add sum to typecasted int "i" sum=0
+
+ iteration:2:  i='r'--if condition (using i.isdigit() we can check this i is digit or not) "FALSE"
+ add sum to typecasted int "i" sum=0
+
+ iteration:3:  i='1'--if condition (using i.isdigit() we can check this i is digit or not) "TRUE" 
+ add sum to typecasted int "1" sum+=int(i) 0+1=sum=1
+
+ iteration:4:  i='2'--if condition (using i.isdigit() we can check this i is digit or not)  "TRUE" 
+ add sum to typecasted int "2" sum+=int(i) 1+2=sum=3
+
+ 3. print sum=3

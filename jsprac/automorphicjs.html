@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+       console.log(main(76))
+        function main(n)
+        {
+            let dum=n;
+            let count=0;
+            while (dum>0)
+            {
+               count+=1
+               dum=Math.trunc(dum/10)
+            }
+            let dummy=n**2
+            while (count>0)
+            {
+                let rem_n=n%10;
+                let rem_nsq=dummy%10;
+                if (rem_n==rem_nsq)
+                {
+                    count-=1
+                }
+                else
+                {
+                    return 'not a automorphic'
+                }
+                n=Math.trunc(n/10)
+                dummy=Math.trunc(dummy/10)
+
+            }  
+            return "yes"  
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

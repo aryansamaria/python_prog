@@ -1,0 +1,13 @@
+1. Take a input for n (3)
+2. declare sum=0 if want to check for 0
+3. for loop with range(1,n+1) starts
+iteration:1: num=1
+             sum+=num--sum=0+1=1
+
+iteration:2: num=2
+             sum+=num--sum=1+2=3
+
+iteration:3: num=3
+             sum+=num--sum=3+3=6
+
+4. print the sum=6                          

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        console.log(main(153))
+        function main(n)
+        {
+            let sum=0;
+            let dum=n;
+            let count=0;
+            while (dum>0)
+            {
+               count+=1
+               dum=Math.trunc(dum/10)
+            }
+            let dummy=n
+            while (dummy>0)
+            {
+                let rem=dummy%10;
+                sum+=rem**count
+                dummy=Math.trunc(dummy/10)
+            }    
+            if (sum==n)
+            {
+                return "yes"
+            }
+            else{
+                return "No"
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
